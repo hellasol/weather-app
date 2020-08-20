@@ -1,0 +1,36 @@
+.textInput {
+    text-align: center;
+    /* display: inline; */
+    padding: 1rem;
+    font-size: 1rem;
+    background: #FFFEE4;
+    border: 1px solid #FFFEE4;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+    width: 15rem;
+    border-radius: 5px;
+    /* padding-left: -100px; */
+
+}
+.TextInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+
+.Button {
+    /* display: inline; */
+    /* margin: 10px auto; */
+    padding: 1rem;
+    font-size: 1rem;
+    background: #8BB4C7;
+    box-shadow: 5px 5px 0px #F9F0BC, 10px 10px 0px #DFA5A6;
+    border: 1px solid #FFFEE4;
+    color: #FFFEE4;
+    cursor: pointer;
+    margin: 5px;
+    width: 10rem;
+    border-radius: 5px;
+    margin-left: 50px;
+}
